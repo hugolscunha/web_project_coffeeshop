@@ -1,5 +1,5 @@
 # TripleTen
-<p>Esse é um projeto de um site que visa apresentar a biblioteca da TripleTen, onde possui não apenas uma visão geral, mas também informações de próximos eventos, opçoes de inscrição (assinatura) da bivlioteca, por fim, contatos para com a equipe do da TripleTen.</p>
+<p>Esse é um projeto de um site que visa apresentar uma cafeteria, apresentando uma visão geral do estabelecimento, assim como informações e opçoes de agendamento de uma visista, por fim, contatos para com a equipe da cafeteria.</p>
 
 ### Features
 - [x] HTML5
