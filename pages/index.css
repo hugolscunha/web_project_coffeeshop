@@ -107,16 +107,34 @@
   color: #838383;
 }
 
-.header__footer-paragraph {
- position: absolute;
-  left: 80px;
-  bottom: 40px;
+.header__paragraph {
+  position: relative;
+  
 }
 
-.header__footer-paragraph-address {
- position: absolute;
- right: 80px;
- bottom: 40px;
+.header__paragraph-footer-3 {
+  position: absolute;
+  left: 80px;
+  bottom: 65px;
+}
+
+.header__paragraph-footer-2 {
+  position: absolute;
+  left: 80px;
+  bottom: 45px;
+}
+
+.header__paragraph-footer-1 {
+  position: absolute;
+  left: 80px;
+  bottom: 40px;
+  margin: 0;
+}
+
+.header__paragraph-footer-0 {
+  position: absolute;
+  right: 80px;
+  bottom: 40px;
 }
 
 .recipes {
