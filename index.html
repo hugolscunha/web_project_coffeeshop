@@ -100,9 +100,20 @@
         </section>
         <section class="reservation" id="reservation">
           <h2 class="reservation__title">Reservar uma mesa</h2>
-          <fieldset class="form reservation__form">
-            
-          </fieldset>
+          <form name="reservation" method="get" class="form reservation__form">
+            <fieldset class="form__fieldset">
+              <label for="nome" class="form__label"></label>
+              <input type="text" name="nome" id="nome" class="form__input">
+              <label for="numero"></label>
+              <input type="number" name="numero" id="numero" class="form__input">
+              <label for="data"></label>
+              <input type="datetime-local" name="data" id="data" class="form__input">
+              <label for="email"></label>
+              <input type="email" name="email" id="email" class="form__input">
+            </fieldset>
+            <button type="submit" class="form__button">Enviar</button>
+            <input type="checkbox" name="termo" id="termo" class="form__checkbox">
+          </form>
         </section>
       </main>
       <footer class="footer"></footer>
