@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Hugo Cunha" />
     <link rel="shortcut icon" href="favicon.ico" />
-    <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="./pages/index.css" />
     <title>CoffeeShop TripleBeaks</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -35,7 +34,7 @@
               <a class="nav__link" href="#reservation">Reservar uma mesa</a>
             </li>
             <li>
-              <a class="nav__link" href="">Contatos</a>
+              <a class="nav__link" href="#footer">Contatos</a>
             </li>
           </ul>
         </nav>
@@ -103,24 +102,91 @@
           <form name="reservation" method="get" class="form reservation__form">
             <fieldset class="form__fieldset">
               <label for="nome" class="form__label">Nome *</label>
-              <input type="text" name="nome" id="nome" class="form__input" placeholder="Nome" required>
-              <label for="numero" class="form__label">Número de convidados *</label>
-              <input type="number" name="numero" id="numero" class="form__input" placeholder="1-8" required>
+              <input
+                type="text"
+                name="nome"
+                id="nome"
+                class="form__input"
+                placeholder="Nome"
+                required
+              />
+              <label for="numero" class="form__label"
+                >Número de convidados *</label
+              >
+              <input
+                type="number"
+                name="numero"
+                id="numero"
+                class="form__input"
+                placeholder="1-8"
+                required
+              />
               <label for="data" class="form__label">Data e hora *</label>
-              <input type="datetime-local" name="data" id="data" class="form__input" required>
+              <input
+                type="datetime-local"
+                name="data"
+                id="data"
+                class="form__input"
+                required
+              />
               <label for="email" class="form__label">Seu e-mail*</label>
-              <input type="email" name="email" id="email" class="form__input" placeholder="email@email.com" required>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                class="form__input"
+                placeholder="email@email.com"
+                required
+              />
             </fieldset>
             <button type="submit" class="form__button">Enviar</button>
             <label for="termo" class="form__label form__checkbox-text">
-            <input type="checkbox" name="termo" id="termo" class="form__checkbox" required>
-            Eu concordo com os termos de uso</label>
-            
-
+              <input
+                type="checkbox"
+                name="termo"
+                id="termo"
+                class="form__checkbox"
+                required
+              />
+              Eu concordo com os termos de uso</label
+            >
           </form>
         </section>
       </main>
-      <footer class="footer"></footer>
+      <footer class="footer" id="footer">
+        <nav class="footer__content">
+          <img
+            src="images/logo_coffeeshop_light.svg"
+            alt="Triple Espresso logo"
+            class="footer__logo"
+          />
+          <div class="footer__circle"></div>
+          <div class="footer__social">
+            <p class="footer__social-heading">Midia social</p>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a
+                  class="footer__social-link"
+                  href="https://www.facebook.com/tripleten.brasil/?locale=pt_BR"
+                  ><img
+                    src="images/facebook_white.svg"
+                    alt="logo facebook" class="footer__social-icon"
+                  />Facebook</a
+                >
+              </li>
+              <li class="footer__list-item">
+                <a
+                  class="footer__social-link"
+                  href="https://www.instagram.com/tripleten.brasil/"
+                  ><img src="images/instagram_white.svg" alt="logo instagram" class="footer__social-icon" />
+                  Instagram</a
+                >
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <p class="footer__copyright">&copy; 2025 Hugo Cunha</p>
+      </footer>
     </div>
   </body>
 </html>

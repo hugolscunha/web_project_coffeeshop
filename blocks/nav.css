@@ -1,0 +1,36 @@
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+  }
+  
+  .nav__logo {
+    position: relative;
+    width: 105px;
+    height: 39px;
+    top: 30px;
+    left: 30px;
+  }
+  
+  .nav__links {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 30px;
+    right: 80px;
+    column-gap: 20px;
+      
+  }
+  
+  .nav__link {
+    text-decoration: none;
+    font-family: "Inter";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: black;
+    
+  }
